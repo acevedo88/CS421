@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 RE# Project #1: Knight Tour\
+\
+* Author: Alex Acevedo\
+* Class: CS421 Algorithms\
+* Semester: Summer 2020\
+\
+## Overview\
+\
+The Java application is used to solve the Knight's Tour problem by using the exhaustive search and backtracking implementations.  It allows a Basic Search, Heuristic I search, and Heuristic II search that can solve the problem.  \
+\
+## Compiling and Using\
+\
+In order to compile and run this code, the user must execute the following commands:\
+````\
+$ javac KnightTour.java\
+$ java KnightTour <0/1/2> <size> <xPosition> <yPosition>\
+\
+## Discussion \
+````\
+Table 1\
+$ java KnightTour 0 7 1 1\
+\
+The total number of Moves is 254727174\
+21 46 41 2  23 26 9  \
+40 1  22 27 10 3  24 \
+47 20 45 42 25 8  11 \
+44 39 34 19 28 15 4  \
+33 48 43 36 7  12 29 \
+38 35 18 31 14 5  16 \
+49 32 37 6  17 30 13\
+\
+Table 2\
+$ java KnightTour 1 7 1 1\
+\
+The total number of Moves is 7330\
+21 40 11 2  23 30 13 \
+10 1  22 39 12 3  24 \
+41 20 9  36 31 14 29 \
+8  35 42 47 38 25 4  \
+19 46 37 32 43 28 15 \
+34 7  44 17 48 5  26 \
+45 18 33 6  27 16 49 \
+\
+Table 3\
+$ java KnightTour 2 7 1 1\
+\
+The total number of Moves is 172\
+49 44 11 2  29 42 13 \
+10 1  46 43 12 3  28 \
+45 48 9  30 41 14 35 \
+8  25 40 47 36 27 4  \
+39 22 31 26 17 34 15 \
+24 7  20 37 32 5  18 \
+21 38 23 6  19 16 33 }
